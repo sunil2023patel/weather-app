@@ -3,7 +3,7 @@ const cityInput=document.querySelector('.city-input');
 const temperature=document.querySelector('.temperature h1');
 const cityName=document.querySelector('.city-name h2');
 const description=document.querySelector('.description p');
-const API_KEY = "";
+const API_KEY = "API_KEY";
 
 async function getweather(city) {
     const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
